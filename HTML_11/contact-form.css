@@ -1,0 +1,39 @@
+main {
+    width:  470px;
+    margin: 50px auto 0;
+    Padding: 50px 60px 70px 60px;
+    background: #e9e8e8;    
+  }
+
+main::before{
+    Position: Absolute;
+    Top: -30px;
+    Left: 259px;
+    Background: url(…) no-repeat 0 0;
+    Display: block;
+    Height: 85px;
+    Width: 68px;
+    Content: "";
+}
+h1{
+    color: rgb(104, 104, 104);
+}
+p{
+    color: #838282;
+}
+
+input{
+    outline: none;
+    border: none;
+    background: #ffffff;
+    padding: 10px 10px 10px 60px;
+    width: 85%;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+div.message{
+    position: absolute;
+}

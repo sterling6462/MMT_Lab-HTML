@@ -1,0 +1,20 @@
+head h1{
+    size: 28px;
+}
+header p{
+    font-style: italic;
+}
+
+header p1{
+    size: 24px;
+}
+
+body{ 
+    margin: 50px;
+    padding: 0px;
+    background-color:#CCCCCC;
+}
+ 
+section{
+    margin-left: 20px;
+}

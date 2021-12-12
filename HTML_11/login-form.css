@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body{
+    background: #927057;
+    color:#ffffff;
+    padding: 20px;
+}
+
+main {
+    width:  470px;
+    margin: 50px auto 0;
+    Padding: 50px 60px 70px 60px;
+    background: #d5c395;    
+  }
+
+main::before{
+    Position: Absolute;
+    Top: -30px;
+    Left: 259px;
+    Background: url(…) no-repeat 0 0;
+    Display: block;
+    Height: 35px;
+    Width: 68px;
+    Content: "";
+}
+
+footer{
+    size: 1em;
+    color: #EFE1C4;
+    text-align: center;
+}
+
+label{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px; 
+
+}
+
+div.image-container{
+    text-align: center;
+    margin-top: 50px;
+}
+img.img_p{
+    border: 5px solid #d5c395;
+}
+
+input{
+    outline: none;
+    border: none;
+    background: #efe1c4;
+    padding: 10px 10px 10px 60px;
+    width: 85%;
+    font-size: 1.1em;
+    color: #927057;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: #927057;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.5em;
+    color: #d5c395;
+    border-radius: 5px;
+}
+
+div.parent{
+    position: relative;
+}
+img.img_c{
+    position: Absolute;
+    Left: 12px;
+    Top: 31px;
+    Width: 20px;
+    Height: 20px;
+    Border: none;
+}
+   
